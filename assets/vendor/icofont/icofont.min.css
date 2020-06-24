@@ -1,0 +1,83 @@
+
+@font-face {
+    font-family: IcoFont;
+    font-weight: 400;
+    font-style: Regular;
+    src: url(fonts/icofont.woff2) format("woff2"),url(fonts/icofont.woff) format("woff")
+}
+
+[class*=" icofont-"],[class^=icofont-] {
+    font-family: IcoFont!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    line-height: 1;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased
+}
+
+
+
+.icofont-chart-bar-graph:before {
+    content: "\e979"
+}
+
+
+
+.icofont-rounded-right:before {
+    content: "\eaa0"
+}
+
+
+
+.icofont-google-map:before {
+    content: "\ed42"
+}
+
+
+.icofont-skype:before {
+    content: "\ed67"
+}
+
+
+.icofont-whatsapp:before {
+    content: "\ed86"
+}
+
+
+
+.icofont-computer:before {
+    content: "\eeee"
+}
+
+
+
+.icofont-earth:before {
+    content: "\ef0e"
+}
+
+
+.icofont-envelope:before {
+    content: "\ef14"
+}
+
+
+.icofont-image:before {
+    content: "\ef4b"
+}
+
+
+.icofont-settings:before {
+    content: "\efe2"
+}
+
+
+.icofont-tasks-alt:before {
+    content: "\f006"
+}
+
