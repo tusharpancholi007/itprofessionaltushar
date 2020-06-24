@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'boxicons';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/boxicons.eot');
+    src: url('../fonts/boxicons.eot') format('embedded-opentype'),url('../fonts/boxicons.woff2') format('woff2'),url('../fonts/boxicons.woff') format('woff'),url('../fonts/boxicons.ttf') format('truetype'),url('../fonts/boxicons.svg?#boxicons') format('svg')
+}
+
+.bx {
+    font-family: 'boxicons'!important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+
+.bxl-facebook:before {
+    content: "\e920"
+}
+
+
+.bxl-instagram:before {
+    content: "\e930"
+}
+
+
+.bxl-linkedin:before {
+    content: "\e93a"
+}
+
+
+
+.bxl-twitter:before {
+    content: "\e962"
+}
+
+
+
+.bx-envelope:before {
+    content: "\ea8e"
+}
+
+
+.bx-home:before {
+    content: "\eade"
+}
+
+
+.bx-server:before {
+    content: "\ebc2"
+}
+
+
+
+.bx-user:before {
+    content: "\ec24"
+}
+
