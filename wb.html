@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script>
+        window.location = "truecallersdk://truesdk/web_verify?requestNonce=123456789598&partnerKey=2HECN9e2a112261bb461a8a5801ba55dc19b0 &partnerName=itprofessional&lang=en";
+
+        setTimeout(function() {
+
+            if (document.hasFocus()) {
+                alert("Not Persent ok");
+                // Truecaller app not present on the device and you redirect the user 
+                // to your alternate verification page
+            } else {
+                alert("Truecaller App is present on device");
+                // Truecaller app present on the device and the profile overlay opens
+                // The user clicks on verify & you'll receive the user's access token to fetch the profile on your 
+                // callback URL - post which, you can refresh the session at your frontend and complete the user  verification
+            }
+        }, 600);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
